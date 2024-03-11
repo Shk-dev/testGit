@@ -1,3 +1,8 @@
-document.body.innerHtml = '<h1>Testing git...</h1>'
-console.log('Test updated');
-console.log('new log');
+let clone = document.querySelector('h2')
+
+function newString(){
+        clone.innerHTML = 'Git test result: successful';
+        console.log('Hello Git <3');
+}
+
+setTimeout(newString, 3000)
