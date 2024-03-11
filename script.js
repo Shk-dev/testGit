@@ -1,4 +1,4 @@
-let clone = document.querySelector('h2')
+let clone = document.querySelector('h1')
 
 function newString(){
         clone.innerHTML = 'Git test result: successful';
